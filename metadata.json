@@ -1,0 +1,6 @@
+{
+  "name": "AURIC — Jewellery Business Operating System",
+  "description": "Enterprise-grade multi-tenant jewellery business management SaaS for retail showrooms, wholesale, manufacturing, precious metal accounting, and BIS/GST compliance.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

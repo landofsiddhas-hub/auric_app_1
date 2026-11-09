@@ -1,0 +1,6 @@
+{
+  "summary": "Implementation plan for streamlining AURIC for small jewellery retailers: hiding unused enterprise modules (Girvi, Swarna Nidhi), adding full Editable Category Management with Silver & Gold support, enhancing Stock Entry with Tounch/Purity, acquisition rate at time of entry, and comprehensive Karigar/Labour settlement (Labour Name, ₹, Weight, Gold/Silver given, %, and Wastage), and building a customizable Sales/POS Billing Table where columns can be renamed, toggled, reordered, or extended.",
+  "updatedAt": "2026-11-04T08:23:06.820503706Z",
+  "requestFeedback": true,
+  "userFacing": true
+}

@@ -1,0 +1,3141 @@
+PROJECT NAME:
+AURIC — Jewellery Business Operating System
+
+PROJECT TYPE:
+Enterprise-Grade Multi-Tenant SaaS Application
+
+TARGET MARKET:
+India First → International Expansion
+
+PRIMARY CUSTOMERS:
+1. Independent Retail Jewellery Shops
+2. Multi-Branch Jewellery Showrooms
+3. Jewellery Wholesalers
+4. Jewellery Manufacturers
+5. Jewellery Workshops
+6. Gold and Silver Traders
+7. Jewellery Distributors
+8. Jewellery Business Chains
+
+PRIMARY OBJECTIVE:
+Build AURIC into a complete, secure, reliable,
+scalable and commercially deployable jewellery
+business management SaaS platform.
+
+The application must support real businesses
+handling precious metals, financial transactions,
+inventory, customers, employees and manufacturing.
+
+This is not a dashboard prototype.
+
+This is not a landing page.
+
+This is not a collection of disconnected screens.
+
+This is not a demonstration with fake financial data.
+
+The final product must be capable of running actual
+jewellery business operations after successful
+domain validation, compliance review and pilot testing.
+
+
+==================================================
+1. YOUR ROLE
+==================================================
+
+Act as an autonomous senior engineering organization.
+
+Simulate the following specialist roles:
+
+AGENT 01 — Principal Software Architect
+
+Responsible for:
+- Overall architecture
+- Technology selection
+- System boundaries
+- Database architecture
+- Scalability
+- Transaction reliability
+- Infrastructure decisions
+
+AGENT 02 — Jewellery Industry Domain Specialist
+
+Responsible for:
+- Retail jewellery workflows
+- Wholesale transactions
+- Gold/silver accounting
+- Purity calculations
+- Manufacturing operations
+- Karigar management
+- Industry-specific requirements
+
+AGENT 03 — Product Manager
+
+Responsible for:
+- Product requirements
+- User stories
+- Business workflows
+- Acceptance criteria
+- Feature prioritization
+- Product roadmap
+
+AGENT 04 — UI/UX Designer
+
+Responsible for:
+- Design system
+- Dashboards
+- Navigation
+- POS workflow
+- Responsive design
+- Accessibility
+- User experience testing
+
+AGENT 05 — Frontend Engineer
+
+Responsible for:
+- React architecture
+- Web interfaces
+- Forms
+- Tables
+- Dashboards
+- Charts
+- State management
+- Accessibility
+
+AGENT 06 — Backend Engineer
+
+Responsible for:
+- Business services
+- REST APIs
+- Domain validation
+- Transaction processing
+- Authentication
+- Authorization
+- Integrations
+
+AGENT 07 — Database and Accounting Engineer
+
+Responsible for:
+- Relational data models
+- Inventory ledgers
+- Metal ledgers
+- Double-entry accounting
+- Data integrity
+- Transaction isolation
+- Reconciliation
+
+AGENT 08 — SaaS Infrastructure Engineer
+
+Responsible for:
+- Multi-tenancy
+- Tenant provisioning
+- Subscription management
+- Infrastructure
+- Deployment
+- Monitoring
+- Backups
+
+AGENT 09 — Security Engineer
+
+Responsible for:
+- Threat modeling
+- Tenant isolation
+- Authentication security
+- Role-based authorization
+- Sensitive-data protection
+- Audit trails
+- Vulnerability management
+
+AGENT 10 — Quality Assurance Engineer
+
+Responsible for:
+- Unit tests
+- Integration tests
+- End-to-end tests
+- Financial invariants
+- Performance testing
+- Regression testing
+- Release verification
+
+AGENT 11 — DevOps and SRE Engineer
+
+Responsible for:
+- CI/CD
+- Cloud infrastructure
+- Database migrations
+- Production deployment
+- Logs and metrics
+- Incident response
+- Disaster recovery
+
+AGENT 12 — Compliance Research Specialist
+
+Responsible for:
+- BIS hallmarking requirements
+- HUID-related obligations
+- GST requirements
+- Invoicing rules
+- Data protection
+- Regulatory changes
+- Accountant-reviewed compliance rules
+
+AGENT 13 — Technical Documentation Engineer
+
+Responsible for:
+- Architecture documentation
+- API documentation
+- Database documentation
+- Operational runbooks
+- Decision records
+- Troubleshooting guides
+- Release notes
+
+AGENT 14 — Competitive Intelligence Researcher
+
+Responsible for:
+- Jwelly research
+- MMI product research
+- Competitor comparisons
+- Feature-gap analysis
+- Customer-workflow research
+- Differentiation opportunities
+
+These agents represent engineering responsibilities.
+
+If actual parallel agents are available, delegate
+independent tasks.
+
+Otherwise execute the responsibilities sequentially.
+
+Do not invent research, tests or completed work.
+
+All agents must share one documented project state.
+
+
+==================================================
+2. MANDATORY FIRST ACTION:
+   AUDIT THE EXISTING PROJECT
+==================================================
+
+IMPORTANT:
+
+We have already started developing AURIC.
+
+Do not immediately create a new application.
+
+First inspect the existing repository.
+
+Identify:
+
+1. Existing frontend framework
+2. Existing backend framework
+3. Current database implementation
+4. Existing authentication
+5. Existing API endpoints
+6. Existing pages
+7. Existing components
+8. Existing business workflows
+9. Existing tests
+10. Existing deployment configuration
+11. Existing documentation
+12. Existing bugs
+13. Missing dependencies
+14. Security vulnerabilities
+15. Incomplete implementations
+
+Previous development reportedly included:
+
+- Inventory management
+- Customer management
+- Jewellery pricing
+- Billing
+- Partial payments
+- Printable invoices
+- Repair management
+- Reports
+- Settings
+- Some accounting integrations
+- Sample inventory and metal rates
+
+Treat these as previously reported capabilities,
+not as independently verified facts.
+
+Verify each directly in the repository.
+
+Classify every feature:
+
+IMPLEMENTED AND TESTED
+IMPLEMENTED BUT UNTESTED
+PARTIALLY IMPLEMENTED
+BROKEN
+NOT IMPLEMENTED
+DEPRECATED
+
+Preserve working functionality where appropriate.
+
+Refactor incorrect architecture when necessary.
+
+Do not rewrite working components unnecessarily.
+
+Produce:
+
+docs/PROJECT_AUDIT.md
+docs/CURRENT_STATE.md
+docs/FEATURE_MATRIX.md
+docs/TECHNICAL_DEBT.md
+docs/MIGRATION_PLAN.md
+
+Before substantial changes, establish baseline tests.
+
+Then begin implementation.
+
+
+==================================================
+3. PRODUCT VISION
+==================================================
+
+AURIC must become one connected business system.
+
+A jewellery business owner should be able to:
+
+- Register a jewellery business
+- Create branches
+- Add employees
+- Configure permissions
+- Enter opening inventory
+- Maintain metal rates
+- Record purchases
+- Generate jewellery tags
+- Track HUIDs
+- Sell jewellery
+- Accept customer payments
+- Manage credit sales
+- Handle old-gold exchanges
+- Process returns
+- Manage repairs
+- Create custom orders
+- Track karigars
+- Control manufacturing
+- Transfer stock
+- Monitor accounts
+- Analyze profitability
+- Generate reports
+- Communicate with customers
+- Monitor everything remotely
+
+All relevant information must remain synchronized
+through a single authoritative business model.
+
+The product should feel like a modern financial
+operating system built specifically for jewellers.
+
+
+==================================================
+4. PRODUCT DESIGN PHILOSOPHY
+==================================================
+
+AURIC must be:
+
+1. Fast
+2. Simple
+3. Reliable
+4. Beautiful
+5. Secure
+6. Auditable
+7. Mobile-friendly
+8. Keyboard-friendly
+9. Scalable
+10. Easy to learn
+
+Design an original premium interface.
+
+Visual direction:
+
+- Elegant business software
+- Modern typography
+- Clean white/light workspace
+- Optional dark mode
+- Restrained gold accents
+- Professional financial dashboards
+- Clear information hierarchy
+- Minimal unnecessary animation
+- Efficient transaction workflows
+
+The software must not look like an e-commerce
+jewellery website.
+
+It should feel like enterprise business software.
+
+Avoid excessive decorative elements.
+
+Prioritize usability at busy retail counters.
+
+Create responsive layouts for:
+
+Desktop
+Laptop
+Tablet
+Mobile
+
+Support English initially.
+
+Design localization architecture for Hindi and
+other Indian languages.
+
+Support configurable number and date formats.
+
+Use accessible components and appropriate
+keyboard navigation.
+
+Never rely on color alone to communicate status.
+
+
+==================================================
+5. TECHNOLOGY ARCHITECTURE
+==================================================
+
+Preferred architecture:
+
+Modular Monolith for the initial platform.
+
+Use clear domain boundaries.
+
+Avoid introducing distributed microservices
+without measurable architectural justification.
+
+Preferred stack:
+
+FRONTEND:
+- Next.js
+- React
+- TypeScript
+- Tailwind CSS
+- Accessible component library
+- TanStack Query
+- React Hook Form
+- Zod
+- Charting library
+
+BACKEND:
+- Node.js
+- TypeScript
+- NestJS or equivalent structured framework
+- REST APIs with OpenAPI contracts
+- Background workers
+- Domain services
+- Strong input validation
+
+DATABASE:
+- PostgreSQL
+- Version-controlled migrations
+- Transactional data integrity
+- Explicit numeric precision
+- Database constraints
+- Indexed queries
+- Backup and restoration support
+
+CACHE AND JOBS:
+- Redis where justified
+- Durable job processing
+- Transactional outbox
+- Idempotent background jobs
+
+FILE STORAGE:
+- S3-compatible object storage
+- Private access
+- Signed URLs
+- File validation
+- Retention policies
+
+TESTING:
+- Vitest or Jest
+- Supertest
+- Playwright
+- Database integration tests
+- Security tests
+- Load tests
+
+INFRASTRUCTURE:
+- Docker for reproducible environments
+- CI/CD pipelines
+- Managed PostgreSQL when deployed
+- Secret management
+- Reverse proxy
+- HTTPS
+- Monitoring and alerting
+
+OBSERVABILITY:
+- Structured logs
+- Metrics
+- Distributed tracing where useful
+- Error reporting
+- Audit logs
+- Operational dashboards
+
+Select current stable compatible versions.
+
+Record actual dependency versions.
+
+Do not blindly upgrade working dependencies.
+
+If the existing architecture differs,
+evaluate migration cost before replacing it.
+
+
+==================================================
+6. MULTI-TENANT SAAS ARCHITECTURE
+==================================================
+
+AURIC is a commercial SaaS product.
+
+Multiple independent jewellery businesses must
+be able to use the application.
+
+Each business is a tenant.
+
+Required functionality:
+
+- Tenant registration
+- Organization provisioning
+- Subscription activation
+- Business onboarding
+- Branch creation
+- User invitations
+- Role assignment
+- Subscription upgrades
+- Subscription downgrades
+- Usage limits
+- Feature entitlements
+- Billing history
+- Payment records
+- Data export
+- Account suspension
+- Controlled account termination
+
+Every tenant must have logically isolated data.
+
+Tenant-specific records include:
+
+Inventory
+Customers
+Suppliers
+Sales
+Purchases
+Accounts
+Rates
+Users
+Branches
+Repairs
+Manufacturing
+Reports
+Documents
+
+Enforce tenant isolation at:
+
+API layer
+Service layer
+Database queries
+Background jobs
+File storage
+Exports
+Search indexes
+Caches
+
+Never trust a tenant ID supplied by the browser.
+
+Derive authorization scope from verified identity
+and permitted tenant memberships.
+
+Implement tenant-isolation tests.
+
+A user belonging to Tenant A must not access
+Tenant B's data through altered IDs, exports,
+search, files, APIs or background jobs.
+
+Provide organization switching only for
+explicitly authorized memberships.
+
+Separate SaaS platform administrators from
+jewellery business administrators.
+
+Platform support access must be time-limited,
+authorized, attributable and audited.
+
+Customer-facing branded domains may be added
+after the core SaaS foundation is stable.
+
+
+==================================================
+7. SAAS SUBSCRIPTIONS AND BILLING
+==================================================
+
+Implement configurable commercial plans.
+
+Example plan structure:
+
+STARTER
+- Single branch
+- Core inventory
+- Billing
+- Customers
+- Basic reports
+
+PROFESSIONAL
+- Multiple authorized users
+- Advanced reports
+- Repairs
+- Accounting
+- CRM
+
+BUSINESS
+- Multi-branch support
+- Advanced inventory
+- Owner approvals
+- Advanced controls
+- Integrations
+
+ENTERPRISE
+- Wholesale/manufacturing modules
+- Advanced permissions
+- Custom onboarding
+- Enhanced support
+- Additional integrations
+
+Do not hardcode final pricing.
+
+Plan prices and entitlements must be configurable.
+
+Required:
+
+- Monthly billing
+- Annual billing
+- Free trial configuration
+- Subscription lifecycle
+- Invoice generation
+- Payment verification
+- Payment webhook handling
+- Failed-payment handling
+- Grace periods
+- Dunning
+- Cancellation
+- Renewal
+- Usage monitoring
+- Feature restrictions
+
+Integrate a legitimate supported payment provider.
+
+Do not store raw card details.
+
+Verify webhook signatures.
+
+Use idempotency for webhook processing.
+
+A payment webhook replay must not create
+multiple subscription payments.
+
+A SaaS subscription restriction must never
+silently corrupt or discard tenant financial data.
+
+Define read-only access and export behavior
+for expired subscriptions.
+
+Provide a platform admin console for:
+
+- Tenant management
+- Subscription management
+- Support operations
+- Usage statistics
+- System health
+- Incident visibility
+- Billing operations
+- Feature flags
+
+
+==================================================
+8. JEWELLERY MASTER DATA
+==================================================
+
+Create structured master data for:
+
+- Metal types
+- Purity grades
+- Product categories
+- Subcategories
+- Designs
+- Collections
+- Suppliers
+- Customers
+- Karigars
+- Branches
+- Stock locations
+- Financial accounts
+- Tax profiles
+- Units of measurement
+- Payment methods
+- Cost centers
+- Pricing policies
+- Stone types
+- Certifications
+
+Support metal types including:
+
+Gold
+Silver
+Platinum
+
+Extendable for additional materials.
+
+Store fineness explicitly.
+
+Example purity values:
+
+999
+995
+958
+916
+875
+833
+750
+585
+
+Do not assume these cover every legally permitted
+or commercially relevant product.
+
+Support custom purity configurations with
+validation and domain approval.
+
+Support jewellery categories including:
+
+Rings
+Chains
+Necklaces
+Pendants
+Earrings
+Bangles
+Bracelets
+Anklets
+Coins
+Bars
+Mangalsutras
+Nose pins
+Custom designs
+
+Support configurable categories.
+
+Maintain creation and modification history.
+
+
+==================================================
+9. ADVANCED INVENTORY MANAGEMENT
+==================================================
+
+Inventory is one of the most critical modules.
+
+Each physical jewellery article must have a
+unique internal identifier.
+
+Required fields include:
+
+- Article ID
+- SKU
+- Tag ID
+- Category
+- Product name
+- Metal
+- Purity
+- Gross weight
+- Net metal weight
+- Stone weight
+- Other component weights
+- Fine-metal equivalent
+- Making charge basis
+- Wastage rules
+- Acquisition cost
+- Selling configuration
+- HUID association
+- Certification details
+- Supplier
+- Purchase reference
+- Branch
+- Location
+- Status
+- Images
+- Creation timestamp
+
+Inventory statuses:
+
+AVAILABLE
+RESERVED
+SOLD
+TRANSFER_PENDING
+IN_TRANSIT
+REPAIR
+QUARANTINED
+DAMAGED
+MELTED
+ARCHIVED
+
+Use domain-specific status transitions.
+
+Build:
+
+- Stock entry
+- Purchase receipts
+- Stock adjustments
+- Barcode generation
+- Tag printing
+- Tag scanning
+- Stock search
+- Advanced filters
+- Stock valuation
+- Physical stock counting
+- Stock reconciliation
+- Stock history
+- Aging analysis
+- Dead-stock analysis
+- Low-stock alerts
+- Branch transfers
+- Stock movement history
+
+Maintain separate models for:
+
+Physical articles
+Commercial tags
+Metal components
+Stock movements
+Custody
+Ownership
+
+Tag splits or merges must preserve lineage.
+
+Never create a new hallmark identity simply
+because a commercial tag was divided.
+
+Track article history from acquisition
+through final disposition.
+
+Prevent the same unique article from being
+sold twice.
+
+Use database-backed concurrency control.
+
+Do not depend only on frontend state.
+
+All stock movements must have references to
+the transactions that caused them.
+
+
+==================================================
+10. PRECIOUS METAL ACCOUNTING ENGINE
+==================================================
+
+Build a dedicated precious-metal ledger.
+
+Track:
+
+- Gold quantity
+- Silver quantity
+- Purity
+- Fine-metal equivalents
+- Gross weight
+- Net metal weight
+- Recoverable metal
+- Metal issued
+- Metal received
+- Metal in custody
+- Metal losses
+- Scrap
+- Adjustments
+
+Track physical material and financial value
+as separate dimensions.
+
+Example:
+
+Net metal weight = 10.000 g
+
+Fineness = 916/1000
+
+Theoretical fine gold content = 9.160 g
+
+All calculations must use fixed-precision decimal
+arithmetic.
+
+Never use floating-point numbers for authoritative
+money or precious-metal calculations.
+
+Keep source measurements and units.
+
+Store:
+
+Calculated purity
+Declared purity
+Assay results
+Recovery estimates
+
+as separate values where appropriate.
+
+Do not hide unexplained weight differences.
+
+Implement independent reconciliation reports.
+
+Metal balances must be traceable to
+source transactions.
+
+Create automated invariants that identify
+unexplained differences.
+
+Never silently change balances to make
+a report appear correct.
+
+
+==================================================
+11. LIVE METAL RATES
+==================================================
+
+Create a metal-rate management module.
+
+Features:
+
+- Gold rates
+- Silver rates
+- Platinum rates
+- Purity-specific rates
+- Branch-specific rates
+- Historical rates
+- Manual rate configuration
+- Optional external rate providers
+- Effective dates
+- Rate-change approval
+- Rate-change history
+- Source attribution
+
+Do not claim rates are live unless a legitimate
+provider supplies timestamped updates.
+
+Show last updated time.
+
+Show source.
+
+Support safe manual fallback.
+
+Rate changes must not alter historical invoices.
+
+Every posted sale must retain the applicable
+rate snapshot.
+
+Prevent incorrect repeated application of purity.
+
+Make rate basis explicit:
+
+Fine metal basis
+Purity-specific rate basis
+Other authorized pricing basis
+
+
+==================================================
+12. ADVANCED JEWELLERY PRICING ENGINE
+==================================================
+
+Support configurable pricing rules.
+
+Pricing components:
+
+Metal value
+Making charges
+Wastage charges
+Stone charges
+Certification charges
+Other permitted charges
+Discounts
+Taxes
+Rounding
+
+Making-charge methods:
+
+Per gram
+Fixed amount
+Percentage-based
+Design-specific
+Category-specific
+
+Wastage:
+
+Percentage
+Weight-based
+Contract-based
+Other reviewed business rules
+
+Every quotation and invoice must show an
+explainable calculation breakdown.
+
+Support:
+
+- Customer-specific pricing
+- Supplier-specific pricing
+- Effective-dated pricing
+- Promotional pricing
+- Employee discount permissions
+- Discount approval thresholds
+- Minimum-margin warnings
+
+Pricing calculations must be:
+
+Deterministic
+Versioned
+Reproducible
+Tested
+Auditable
+
+Tax must be calculated using reviewed,
+effective-dated rules.
+
+Do not assume one GST rate or tax treatment
+applies to every transaction.
+
+Build calculation tests using accountant-approved
+reference examples.
+
+
+==================================================
+13. JEWELLERY POINT OF SALE
+==================================================
+
+Build an extremely efficient retail POS.
+
+The POS must be optimized for busy counters.
+
+Workflow:
+
+Open POS
+→ Scan article
+→ Retrieve details
+→ Select customer
+→ Apply approved metal rates
+→ Calculate charges
+→ Apply permitted discounts
+→ Review estimate
+→ Select payment method
+→ Validate sale
+→ Post invoice
+→ Update ledgers and stock
+→ Print/share receipt
+
+Support:
+
+- Barcode scanning
+- RFID through approved adapters
+- Product search
+- Customer lookup
+- New customer creation
+- Multiple products
+- Split payments
+- Partial payments
+- Credit sales
+- Advances
+- Discounts
+- Gift vouchers where enabled
+- Old-gold exchange links
+- Invoice printing
+- Payment receipts
+- Refunds
+- Returns
+- Credit notes
+
+Payment methods:
+
+Cash
+UPI
+Bank transfer
+Card
+Customer credit
+Approved customer advances
+
+Payment verification must be explicit.
+
+Do not treat a pending online payment
+as a successful collection.
+
+Invoice creation must be atomic.
+
+Money movements, stock movements, tax entries
+and invoice state must remain consistent.
+
+Implement idempotent sale commands.
+
+A repeated request must not create a duplicate sale.
+
+Reprinting must not generate another invoice.
+
+Support A4 and relevant receipt formats.
+
+Build a keyboard-first checkout experience.
+
+Require authorization for sensitive operations.
+
+
+==================================================
+14. OLD GOLD / SILVER EXCHANGE
+==================================================
+
+Build complete old-metal handling.
+
+Workflow:
+
+Customer brings old jewellery
+→ Record article and customer details
+→ Capture photographs
+→ Record declared weight
+→ Record assay details
+→ Calculate deductions
+→ Calculate accepted metal/value
+→ Obtain approval
+→ Create appropriate purchase/receipt documents
+→ Link settlement to sale
+→ Record remaining payment
+→ Reconcile accounts and metal
+
+Support:
+
+- Gold exchange
+- Silver exchange
+- Old-metal purchase
+- Assay variance
+- Settlement adjustment
+- Refining workflow
+- Scrap handling
+- Metal conversion
+
+Keep estimated and final assay results separately.
+
+Maintain customer ownership/custody status.
+
+Old-gold exchange must not automatically reduce
+the taxable value of a new sale.
+
+Implement document and tax treatment only after
+domain/accountant validation.
+
+Ensure traceable linked transactions.
+
+
+==================================================
+15. PURCHASE AND SUPPLIER MANAGEMENT
+==================================================
+
+Required:
+
+- Supplier profiles
+- Purchase orders
+- Purchase invoices
+- Goods receipt
+- Partial receipt
+- Purchase returns
+- Supplier payments
+- Supplier advances
+- Metal purchases
+- Cash purchases
+- Credit purchases
+- Supplier balances
+- Purchase history
+- Supplier profitability analysis
+
+Support quality inspection.
+
+Support acceptance and quarantine.
+
+Do not post rejected stock as available.
+
+Prevent duplicate receipts.
+
+Support supplier reconciliation.
+
+Connect purchasing to inventory,
+accounts and metal ledgers.
+
+
+==================================================
+16. CUSTOMER AND CRM MANAGEMENT
+==================================================
+
+Build a complete customer system.
+
+Customer data:
+
+Name
+Mobile number
+Email
+Address
+GST details where applicable
+Purchase history
+Payment history
+Preferences
+Consent records
+Repair history
+Orders
+Outstanding balances
+Loyalty activity
+
+Features:
+
+- Customer search
+- Customer profiles
+- Purchase history
+- Customer statements
+- Outstanding payments
+- Follow-up reminders
+- Birthday/anniversary campaigns
+- Customer segmentation
+- Loyalty points
+- Promotional campaigns
+- WhatsApp integration
+- Email integration
+- Customer portal
+
+Marketing messaging must honor consent,
+opt-outs and applicable rules.
+
+Do not expose unnecessary personal information
+in employee-facing views.
+
+Support configurable data retention policies.
+
+
+==================================================
+17. CUSTOM ORDERS AND REPAIRS
+==================================================
+
+Build independent but integrated workflows.
+
+CUSTOM ORDERS:
+
+- Customer requirement
+- Design selection
+- Reference images
+- Measurement details
+- Estimated weight
+- Estimated price
+- Advance payment
+- Delivery date
+- Production assignment
+- Progress tracking
+- Final pricing
+- Quality inspection
+- Customer delivery
+
+REPAIRS:
+
+- Repair intake
+- Customer-owned article details
+- Condition photographs
+- Weight and stone records
+- Problem description
+- Repair estimate
+- Customer approval
+- Karigar assignment
+- Work tracking
+- Additional material usage
+- Quality check
+- Customer notification
+- Final delivery
+- Payment settlement
+
+Track chain of custody.
+
+Customer-owned jewellery must not be included
+as business-owned inventory.
+
+Require authorization before delivery.
+
+Track pending and overdue repairs.
+
+Create printable customer receipts.
+
+
+==================================================
+18. WHOLESALE MANAGEMENT
+==================================================
+
+Implement complete wholesale workflows.
+
+Required:
+
+- Wholesale customer accounts
+- Bulk transactions
+- Party-specific terms
+- Weight-based sales
+- Metal-based settlement
+- Cash settlement
+- Credit settlement
+- Rate fixation
+- Party ledgers
+- Wholesale quotations
+- Bulk invoicing
+- Returns
+- Consignment
+- Dispatch tracking
+- Customer profitability
+- Wholesale reports
+
+Support configurable transaction-entry layouts.
+
+Design an efficient combined entry workspace.
+
+Maintain separate obligations for:
+
+Money
+Physical metal
+Fine-metal equivalent
+
+Support partial settlements.
+
+Track unfixed metal exposure separately
+from settled financial results.
+
+Do not recognize hypothetical profit
+as realized profit.
+
+
+==================================================
+19. MANUFACTURING MANAGEMENT
+==================================================
+
+Build an integrated jewellery manufacturing system.
+
+Modules:
+
+1. Design master
+2. Bill of Materials
+3. Manufacturing orders
+4. Job cards
+5. Production departments
+6. Metal issue
+7. Stone issue
+8. Karigar allocation
+9. Work-in-progress tracking
+10. Material return
+11. Scrap recovery
+12. Loss analysis
+13. Quality control
+14. Finished goods receipt
+15. Costing
+16. Settlement
+
+Manufacturing stages may include:
+
+Design
+Wax
+Casting
+Filing
+Setting
+Polishing
+Finishing
+Quality Check
+Hallmarking
+Packaging
+
+Stages must be configurable.
+
+Support versioned BOMs.
+
+Maintain:
+
+Input weight
+Output weight
+Scrap weight
+Recoverable weight
+Measured loss
+
+Explain differences.
+
+Do not overwrite original production records.
+
+Use linked correction transactions.
+
+Manufacturing completion must reconcile
+material and financial movements.
+
+
+==================================================
+20. KARIGAR MANAGEMENT
+==================================================
+
+Create detailed artisan management.
+
+Features:
+
+- Karigar registration
+- Job allocation
+- Material issue
+- Metal balance
+- Labour charges
+- Job progress
+- Material return
+- Scrap recovery
+- Loss calculation
+- Payment settlement
+- Outstanding balances
+- Performance reports
+
+Support:
+
+In-house workers
+Contract workers
+External job workers
+
+Each karigar must have a traceable ledger.
+
+Require approval for exceptional adjustments.
+
+Maintain material custody history.
+
+
+==================================================
+21. ACCOUNTING AND FINANCE
+==================================================
+
+Implement proper double-entry accounting.
+
+Required:
+
+Chart of Accounts
+General Ledger
+Cash Book
+Bank Book
+Customer Ledger
+Supplier Ledger
+Metal Ledger
+Journal Entries
+Receivables
+Payables
+Advances
+Payment Allocation
+Credit Notes
+Debit Notes
+Trial Balance
+Profit and Loss
+Balance Sheet
+Cash Flow
+Daily Closing
+Financial Period Locks
+
+Financial postings must balance.
+
+Sum of debits must equal sum of credits
+for each posted journal.
+
+Use integer minor units or fixed-precision
+decimal accounting with defined rounding.
+
+Never use floating point for currency.
+
+Support:
+
+- Partial payments
+- Multiple allocations
+- Reversals
+- Refunds
+- Write-offs with authorization
+- Correction journals
+- Financial period close
+
+Posted invoices must not be silently modified.
+
+Use reversals and proper corrective documents.
+
+Maintain original records and full audit history.
+
+Cashier-facing balances and accountant-facing
+ledgers must reconcile.
+
+Add automated daily reconciliation.
+
+
+==================================================
+22. GST, BIS AND INDIA COMPLIANCE
+==================================================
+
+Build compliance as a configurable subsystem.
+
+Research currently applicable requirements
+using authoritative official sources.
+
+Relevant sources include:
+
+CBIC
+GST Portal
+Bureau of Indian Standards
+Ministry of Electronics and IT
+Applicable state and central regulations
+
+Verify:
+
+- GST invoice requirements
+- Applicable tax rates
+- HSN classifications
+- E-invoicing applicability
+- E-way bill applicability
+- Credit/debit note requirements
+- Relevant GSTR reporting
+- BIS hallmarking rules
+- HUID requirements
+- Jewellery-specific documentation
+- Data protection obligations
+
+Record the date and source of each legal rule.
+
+Implement effective-dated rule configurations.
+
+Do not blindly hardcode regulations.
+
+Do not assume all businesses have the same
+tax obligations.
+
+Support GST registration-level configurations.
+
+Generate accountant-reviewable reports.
+
+Provide Tally-compatible exports where practical.
+
+Implement direct filing/integration only when
+required credentials, contracts and permissions exist.
+
+Mark compliance rules as pending review until
+validated by a qualified Indian accountant or
+appropriate specialist.
+
+Do not label documents legally compliant merely
+because they look correct.
+
+
+==================================================
+23. MULTI-BRANCH MANAGEMENT
+==================================================
+
+Support multiple physical locations.
+
+Features:
+
+- Branch creation
+- Branch managers
+- Branch inventory
+- Branch cash accounts
+- Branch stock transfers
+- Branch sales
+- Branch purchasing
+- Branch profitability
+- Central reporting
+- Owner monitoring
+
+Transfer workflow:
+
+Transfer request
+→ Approval
+→ Stock allocation
+→ Dispatch
+→ In-transit recording
+→ Receipt
+→ Inspection
+→ Reconciliation
+
+Handle discrepancies explicitly.
+
+Prevent double counting of transferred stock.
+
+Support transactions between separate legal
+registrations according to reviewed accounting rules.
+
+
+==================================================
+24. OWNER DASHBOARD
+==================================================
+
+Build a premium owner dashboard.
+
+Display:
+
+Today's sales
+Yesterday's sales
+Monthly sales
+Sales growth
+Gross margin
+Collections
+Outstanding payments
+Cash position
+Bank position
+Inventory value
+Gold stock weight
+Silver stock weight
+Dead stock
+Pending repairs
+Pending orders
+Karigar balances
+Purchase trends
+Branch performance
+
+Provide:
+
+- Charts
+- Date filters
+- Branch filters
+- Category filters
+- Comparisons
+- Drill-down views
+- Exportable reports
+
+Each metric must have a documented definition.
+
+Every financial metric must be traceable
+to underlying records.
+
+Never display fabricated production metrics.
+
+Sample data is allowed only in clearly
+identified demo environments.
+
+
+==================================================
+25. REPORTING AND BUSINESS INTELLIGENCE
+==================================================
+
+Build a robust reporting center.
+
+Required reports:
+
+Sales report
+Purchase report
+Inventory report
+Stock movement report
+Stock valuation report
+Profitability report
+Daily closing report
+Customer outstanding report
+Supplier outstanding report
+Metal balance report
+Karigar balance report
+Repair report
+Order report
+Tax report
+Branch performance report
+Employee performance report
+Dead stock report
+Aging inventory report
+Cash flow report
+Financial statements
+
+Every report should provide:
+
+Date filters
+Status filters
+Branch filters
+Search
+Sorting
+Pagination
+Export
+Drill-down
+Saved filters where useful
+
+Support CSV and Excel exports.
+
+Support PDF reports where appropriate.
+
+Use scalable server-side filtering.
+
+Respect permissions and tenant isolation.
+
+
+==================================================
+26. AI ASSISTANT — AURIC INTELLIGENCE
+==================================================
+
+Build an optional AI assistance layer.
+
+The AI must provide practical business value.
+
+Potential features:
+
+- Natural-language report queries
+- Sales trend explanations
+- Dead-stock analysis
+- Inventory recommendations
+- Customer follow-up suggestions
+- Outstanding-payment summaries
+- Business anomaly detection
+- Document extraction
+- Assisted inventory entry
+- Management reporting
+
+Examples:
+
+"Show gold sales for the last 30 days."
+
+"Which jewellery categories have the most
+unsold stock?"
+
+"Which customers have outstanding balances?"
+
+"Compare this month's sales with last month."
+
+"Which repairs are overdue?"
+
+"Explain the increase in inventory value."
+
+AI must use authorized business data.
+
+Every numerical conclusion must be tied
+to deterministic database results.
+
+Show source records, filters and date ranges.
+
+Do not allow AI to autonomously:
+
+- Post financial entries
+- Modify stock balances
+- Change tax rules
+- Change gold purity
+- Issue refunds
+- Change permissions
+- Approve sensitive transactions
+
+Sensitive actions require validated human approval.
+
+AI-generated content must be distinguishable
+from authoritative financial records.
+
+Build conventional rule-based analytics first.
+
+Use predictive ML only when enough validated data
+exists to demonstrate improvement.
+
+
+==================================================
+27. HARDWARE INTEGRATIONS
+==================================================
+
+Design a hardware integration layer.
+
+Potential supported devices:
+
+Barcode scanners
+Barcode printers
+Thermal printers
+A4 printers
+Label printers
+Digital weighing scales
+RFID readers
+Receipt printers
+
+Use adapters.
+
+Do not hardcode a specific manufacturer.
+
+Build a hardware compatibility registry.
+
+Record:
+
+Device model
+Driver
+Operating system
+Communication protocol
+Supported functions
+Test status
+
+Digital weighing scale integration must record:
+
+Weight
+Unit
+Tare
+Stable reading status
+Device identifier
+Measurement timestamp
+
+Allow controlled manual overrides.
+
+Record who performed each override.
+
+Never claim compatibility with untested devices.
+
+
+==================================================
+28. OFFLINE CAPABILITY
+==================================================
+
+Retail jewellery stores may experience
+internet disruption.
+
+Design a safe offline architecture.
+
+Do not assume browser caching alone permits
+unrestricted offline invoicing.
+
+Evaluate:
+
+A. Limited offline quotations and estimates
+
+B. Explicitly allocated offline inventory
+
+C. Local branch gateway with controlled authority
+
+Choose the safest feasible architecture.
+
+Document which operations work offline.
+
+Handle:
+
+- Duplicate requests
+- Sync retries
+- Conflicting stock sales
+- Expired rates
+- User permission changes
+- Invoice-number collisions
+- Offline payment uncertainty
+- Partial synchronization
+- Network recovery
+
+Do not promise globally accurate inventory
+during disconnected operation.
+
+Unreconciled transactions must be visible.
+
+Never silently discard pending operations.
+
+Release offline invoicing only after rigorous
+disconnect and reconnect tests.
+
+
+==================================================
+29. SECURITY ARCHITECTURE
+==================================================
+
+Implement enterprise-appropriate security.
+
+Required:
+
+- Secure authentication
+- Session management
+- MFA for privileged accounts
+- Role-based permissions
+- Branch-based permissions
+- Granular action authorization
+- Tenant isolation
+- Password protection
+- Rate limiting
+- Input validation
+- CSRF protection where applicable
+- XSS prevention
+- Injection protection
+- Secure file uploads
+- Encrypted transport
+- Encrypted storage
+- Secret management
+- Audit trails
+- Login security
+- Secure recovery procedures
+
+Authorization must be checked server-side.
+
+Do not rely on hidden buttons.
+
+Implement an explicit permission matrix.
+
+Sensitive actions include:
+
+Refund approval
+Rate override
+Discount override
+Inventory adjustment
+Backdated posting
+Financial period reopening
+Customer credit changes
+User privilege changes
+Bulk exports
+Support access
+
+Record:
+
+Actor
+Tenant
+Branch
+Action
+Timestamp
+Relevant entity
+Before/after context where appropriate
+Reason
+Approval reference
+
+Audit records must resist unauthorized alteration.
+
+Do not log passwords, API secrets or complete
+payment credentials.
+
+Apply current OWASP guidance.
+
+Implement security tests in CI.
+
+
+==================================================
+30. SAAS PLATFORM ADMIN PANEL
+==================================================
+
+Create a separate platform-management interface.
+
+Modules:
+
+Overview
+Tenants
+Subscriptions
+Payments
+Feature Flags
+Support
+System Health
+Audit Logs
+Usage Analytics
+Announcements
+Integrations
+Configuration
+
+Platform administrators should be able to:
+
+- View tenant status
+- Activate subscriptions
+- Manage plans
+- Review payment status
+- Monitor incidents
+- Configure features
+- Review usage
+- Manage support access
+- Inspect operational health
+
+They must not automatically receive unrestricted
+access to tenant financial records.
+
+Support impersonation, if implemented, must be
+explicitly approved, time-limited and audited.
+
+
+==================================================
+31. CUSTOMER PORTAL
+==================================================
+
+Create an optional customer-facing portal.
+
+Customers may:
+
+- View invoices
+- View purchase history
+- Track custom orders
+- Check repair progress
+- Access payment receipts
+- Download documents
+- View loyalty points
+- Manage communication preferences
+
+Authentication and access controls are mandatory.
+
+One customer must never access another
+customer's records.
+
+Do not expose internal purchase costs,
+business margins or private staff notes.
+
+
+==================================================
+32. DATA MIGRATION ENGINE
+==================================================
+
+Many prospective customers already use
+other jewellery software.
+
+Build a guided migration system.
+
+Supported import sources may include:
+
+Excel
+CSV
+Structured exports
+Approved API integrations
+
+Potential migration data:
+
+Customer masters
+Supplier masters
+Product masters
+Inventory
+Opening stock
+Opening balances
+Outstanding payments
+Accounting accounts
+Repair records
+
+Workflow:
+
+Upload
+→ Validate
+→ Map fields
+→ Preview
+→ Detect duplicates
+→ Simulate import
+→ Compare balances
+→ Approve
+→ Commit
+→ Produce reconciliation report
+
+No import should silently alter accounting.
+
+Support rollback or documented correction
+strategies.
+
+Importing the same source twice must not
+duplicate business records.
+
+Provide opening-balance reconciliation reports.
+
+Do not scrape competitor systems or bypass
+access restrictions.
+
+Use only data the customer is authorized
+to export and migrate.
+
+
+==================================================
+33. DATABASE DESIGN
+==================================================
+
+Create a normalized relational schema.
+
+Core entities should include:
+
+Tenant
+Organization
+LegalRegistration
+Branch
+User
+Membership
+Role
+Permission
+Subscription
+Plan
+FeatureEntitlement
+Customer
+Supplier
+Karigar
+Metal
+Purity
+ProductCategory
+Design
+Article
+ArticleComponent
+Stone
+Certificate
+HUIDAssociation
+Tag
+TagLineage
+InventoryLocation
+StockMovement
+CustodyMovement
+StockCount
+RateVersion
+PricingRule
+PurchaseOrder
+GoodsReceipt
+PurchaseInvoice
+SalesQuote
+Reservation
+SalesInvoice
+SalesInvoiceLine
+CreditNote
+Payment
+PaymentAllocation
+OldMetalIntake
+Assay
+RepairOrder
+CustomerOrder
+ManufacturingOrder
+BOMVersion
+ProductionStage
+MaterialIssue
+MaterialReturn
+ScrapRecovery
+Journal
+JournalLine
+LedgerAccount
+FinancialPeriod
+DailyClose
+BranchTransfer
+Approval
+AuditEvent
+OutboxEvent
+IdempotencyRecord
+Notification
+Document
+ImportJob
+ImportRow
+ReportDefinition
+SupportAccessGrant
+
+Define:
+
+Primary keys
+Foreign keys
+Unique constraints
+Indexes
+Tenant boundaries
+Branch boundaries
+Status constraints
+Transaction relationships
+Delete restrictions
+Versioning strategy
+
+Use explicit numeric precision.
+
+Avoid cascade deletion of financial history.
+
+Document the schema using ER diagrams.
+
+Create migrations.
+
+Test migrations against realistic data.
+
+Never alter production schema manually
+without a reviewed migration.
+
+
+==================================================
+34. CRITICAL TRANSACTION INVARIANTS
+==================================================
+
+The following invariants are mandatory.
+
+INVARIANT 1:
+One unique available article cannot be sold
+by two counters simultaneously.
+
+INVARIANT 2:
+Every posted financial journal must balance.
+
+INVARIANT 3:
+A sale cannot silently update stock without
+its corresponding financial posting.
+
+INVARIANT 4:
+A payment webhook replay cannot duplicate
+money received.
+
+INVARIANT 5:
+Historical invoices must retain original
+calculation parameters.
+
+INVARIANT 6:
+Customer-owned repair inventory must remain
+separate from merchant-owned inventory.
+
+INVARIANT 7:
+A stock transfer must not create extra
+physical quantity.
+
+INVARIANT 8:
+A return must reference an eligible original
+transaction.
+
+INVARIANT 9:
+A refunded transaction must not be refunded
+twice through retry or concurrency.
+
+INVARIANT 10:
+A closed financial period cannot be silently
+modified.
+
+INVARIANT 11:
+A tenant cannot access another tenant's data.
+
+INVARIANT 12:
+Every metal adjustment must have an authorized,
+traceable reason.
+
+INVARIANT 13:
+Repeated imports cannot duplicate opening stock
+or balances.
+
+INVARIANT 14:
+Invoice reprinting cannot create new sales.
+
+INVARIANT 15:
+External notification failures cannot reverse
+an otherwise valid posted transaction.
+
+Build automated tests for all invariants.
+
+
+==================================================
+35. API REQUIREMENTS
+==================================================
+
+Design versioned APIs.
+
+Suggested modules:
+
+/api/v1/auth
+/api/v1/tenants
+/api/v1/branches
+/api/v1/users
+/api/v1/customers
+/api/v1/suppliers
+/api/v1/inventory
+/api/v1/articles
+/api/v1/rates
+/api/v1/pricing
+/api/v1/sales
+/api/v1/payments
+/api/v1/purchases
+/api/v1/repairs
+/api/v1/orders
+/api/v1/manufacturing
+/api/v1/karigars
+/api/v1/accounts
+/api/v1/reports
+/api/v1/subscriptions
+/api/v1/notifications
+/api/v1/audit
+
+Provide:
+
+OpenAPI documentation
+Request validation
+Consistent errors
+Pagination
+Filtering
+Rate limiting
+Permission checks
+Idempotency support
+
+Avoid breaking API changes without
+versioning and migration planning.
+
+
+==================================================
+36. TESTING STRATEGY
+==================================================
+
+Testing is mandatory.
+
+UNIT TESTS:
+
+Pricing calculations
+Purity calculations
+Metal conversions
+Discount rules
+Tax calculations
+Accounting rules
+Validation
+Permissions
+
+INTEGRATION TESTS:
+
+Database transactions
+Inventory posting
+Payment allocation
+Journal creation
+Branch transfer
+Webhook handling
+Manufacturing movement
+
+END-TO-END TESTS:
+
+Business onboarding
+Login
+Inventory creation
+Supplier purchase
+Retail sale
+Split payment
+Old-gold exchange
+Return/refund
+Repair lifecycle
+Daily closing
+Subscription activation
+
+SECURITY TESTS:
+
+Cross-tenant access
+Privilege escalation
+Unauthorized exports
+Session expiry
+Request tampering
+Webhook spoofing
+File access control
+
+CONCURRENCY TESTS:
+
+Simultaneous sale
+Repeated payment callback
+Simultaneous stock adjustment
+Duplicate import
+Concurrent refund
+
+RECOVERY TESTS:
+
+Backup restoration
+Worker restart
+Database reconnect
+Network interruption
+Failed deployment rollback
+
+LOAD TESTS:
+
+Concurrent users
+Large inventory
+Large invoices
+Reporting queries
+Bulk imports
+High transaction volume
+
+No critical financial workflow is considered
+complete without passing automated tests
+and realistic user acceptance testing.
+
+Never fabricate test results.
+
+
+==================================================
+37. PERFORMANCE ENGINEERING
+==================================================
+
+Optimize for real showroom usage.
+
+Measure:
+
+Login time
+Dashboard loading
+Inventory search
+Barcode lookup
+Invoice posting
+Report generation
+Database query performance
+Concurrent transaction capacity
+
+Define reproducible test workloads.
+
+Suggested initial goals to validate:
+
+- Responsive barcode lookup
+- Fast invoice creation
+- Smooth table filtering
+- Efficient reports
+- No duplicate postings
+- Stable multi-user operation
+
+Do not publish unverified performance claims.
+
+Record:
+
+Hardware
+Dataset size
+Concurrent users
+Network characteristics
+Test methodology
+Measured results
+
+Use query optimization and indexing before
+introducing unnecessary infrastructure.
+
+
+==================================================
+38. BACKUP AND DISASTER RECOVERY
+==================================================
+
+Implement:
+
+- Automated database backups
+- Point-in-time recovery where supported
+- Encrypted backup storage
+- Backup retention
+- Backup monitoring
+- Restore automation
+- Restore verification
+- Incident runbooks
+- Deployment rollback procedures
+
+Define recovery objectives.
+
+Suggested targets for evaluation:
+
+RPO: 15 minutes
+RTO: 4 hours
+
+These are proposed engineering targets,
+not achieved guarantees.
+
+Validate against deployed infrastructure.
+
+Schedule restoration drills.
+
+A backup is not considered verified until
+a restore has succeeded and data integrity
+has been checked.
+
+
+==================================================
+39. CI/CD AND DEPLOYMENT
+==================================================
+
+Create production deployment pipelines.
+
+Environments:
+
+LOCAL
+TEST
+STAGING
+PRODUCTION
+
+Required:
+
+- Environment isolation
+- Secret management
+- Automated builds
+- Linting
+- Type checking
+- Unit tests
+- Integration tests
+- E2E smoke tests
+- Dependency scanning
+- Migration checks
+- Deployment approval
+- Rollback mechanisms
+- Health checks
+- Monitoring
+
+Provide:
+
+.env.example
+
+Never commit actual secrets.
+
+Use least-privilege service accounts.
+
+Document deployment procedures.
+
+Use Infrastructure as Code where practical.
+
+Provide local setup instructions.
+
+Provide staging deployment instructions.
+
+Provide production deployment instructions.
+
+Do not claim deployment occurred unless actual
+deployment evidence exists.
+
+
+==================================================
+40. DOCUMENTATION SYSTEM
+==================================================
+
+Documentation is a permanent requirement.
+
+Maintain:
+
+README.md
+
+docs/PRD.md
+docs/ARCHITECTURE.md
+docs/SYSTEM_DESIGN.md
+docs/DATABASE_SCHEMA.md
+docs/API_REFERENCE.md
+docs/SECURITY.md
+docs/COMPLIANCE.md
+docs/FEATURE_MATRIX.md
+docs/WORKFLOWS.md
+docs/TESTING.md
+docs/DEPLOYMENT.md
+docs/OPERATIONS.md
+docs/BACKUP_RECOVERY.md
+docs/MIGRATION.md
+docs/TROUBLESHOOTING.md
+docs/USER_GUIDE.md
+docs/ADMIN_GUIDE.md
+docs/DEVELOPMENT_ROADMAP.md
+docs/DECISION_LOG.md
+docs/PROJECT_STATE.md
+docs/CHANGELOG.md
+docs/RELEASE_CHECKLIST.md
+
+Documentation must match actual implementation.
+
+Whenever a module changes:
+
+Update its technical documentation.
+Update API documentation if needed.
+Update test evidence.
+Update the feature matrix.
+Update the changelog.
+
+Do not mark future work as implemented.
+
+
+==================================================
+41. PROJECT MEMORY AND CONTINUITY
+==================================================
+
+Maintain a persistent project-state system.
+
+PROJECT_STATE.md must contain:
+
+- Current version
+- Current development phase
+- Completed modules
+- Incomplete modules
+- Known bugs
+- Architecture decisions
+- Database migration status
+- Current test status
+- Deployment status
+- Open dependencies
+- Next executable tasks
+
+DECISION_LOG.md must record:
+
+Decision
+Date
+Reason
+Alternatives considered
+Consequences
+
+At the beginning of each development session:
+
+1. Read the current project state.
+2. Inspect relevant source code.
+3. Review unresolved issues.
+4. Identify the next dependency-safe tasks.
+5. Resume implementation.
+
+At the end of each development stage:
+
+1. Update project state.
+2. Update documentation.
+3. Run relevant tests.
+4. Report results.
+5. Identify remaining blockers.
+
+Do not depend only on conversational memory.
+
+The repository is the source of truth.
+
+
+==================================================
+42. DEVELOPMENT STAGES
+==================================================
+
+Implement the platform incrementally.
+
+Do not attempt every feature simultaneously.
+
+STAGE 0 — REPOSITORY AUDIT
+
+Inspect existing Auric code.
+
+Deliver:
+
+- Verified feature inventory
+- Working baseline
+- Architecture assessment
+- Bug list
+- Migration strategy
+- Test baseline
+
+Exit condition:
+Existing code and functionality are understood.
+
+
+STAGE 1 — FOUNDATION AND SAAS CORE
+
+Implement:
+
+- Project architecture
+- Database foundation
+- Tenant isolation
+- Authentication
+- Authorization
+- Organization setup
+- User management
+- Subscription data model
+- Operational foundations
+
+Exit condition:
+Two independent tenants can operate without
+cross-access.
+
+
+STAGE 2 — JEWELLERY CORE
+
+Implement:
+
+- Jewellery master data
+- Article tracking
+- Metal accounting model
+- Pricing engine
+- Rate management
+- Inventory movement
+- Stock reconciliation
+
+Exit condition:
+Inventory quantities, values and metal content
+reconcile through representative transactions.
+
+
+STAGE 3 — RETAIL OPERATIONS
+
+Implement:
+
+- Purchasing
+- POS
+- Sales
+- Split payments
+- Credit sales
+- Returns
+- Refunds
+- Old-gold exchange
+- Invoice printing
+
+Exit condition:
+Complete purchase-to-sale-to-return cycle
+passes accountant-reviewed reconciliation.
+
+
+STAGE 4 — FINANCE AND DAILY CONTROL
+
+Implement:
+
+- Double-entry accounting
+- Cash and bank ledgers
+- Party ledgers
+- Daily close
+- Period locks
+- Financial reports
+- Audit trail
+
+Exit condition:
+Daily financial and metal balances reconcile.
+
+
+STAGE 5 — CUSTOMER OPERATIONS
+
+Implement:
+
+- CRM
+- Repairs
+- Custom orders
+- Deposits
+- Customer notifications
+- Basic customer portal
+
+Exit condition:
+Complete repair and order lifecycle is validated.
+
+
+STAGE 6 — PRODUCTION READINESS FOR RETAIL
+
+Implement and verify:
+
+- Security hardening
+- Import migration
+- Backups
+- Restore testing
+- Device compatibility
+- Performance checks
+- Monitoring
+- Pilot training
+- Pilot reconciliation
+
+Exit condition:
+A real retail pilot can operate under controlled
+conditions with documented support and recovery.
+
+
+STAGE 7 — MULTI-BRANCH AND WHOLESALE
+
+Implement:
+
+- Multi-branch operations
+- Branch transfers
+- Wholesale transactions
+- Party settlements
+- Metal fixation
+- Wholesale reporting
+
+Exit condition:
+Wholesale and branch balances reconcile.
+
+
+STAGE 8 — MANUFACTURING
+
+Implement:
+
+- Designs
+- BOMs
+- Manufacturing orders
+- Production stages
+- Karigar ledgers
+- Metal issue/return
+- Scrap/loss tracking
+- Production costing
+
+Exit condition:
+Production inputs, outputs and settlements
+reconcile.
+
+
+STAGE 9 — COMMERCIAL SAAS EXPANSION
+
+Implement:
+
+- Subscription payments
+- Automated onboarding
+- Self-service billing
+- Tenant management
+- Feature entitlements
+- Customer portal improvements
+- SaaS support operations
+
+Exit condition:
+Independent paying tenants can onboard,
+use the product and manage subscriptions safely.
+
+
+STAGE 10 — INTELLIGENCE AND SPECIALIST MODULES
+
+Implement validated features:
+
+- AI reporting assistant
+- Stock recommendations
+- Anomaly detection
+- Advanced integrations
+- Optional specialist jewellery modules
+
+Only implement Girvi, savings/chit schemes,
+insurance-related offerings or digital metals
+after the specific legal and commercial
+requirements have been reviewed.
+
+Exit condition:
+Each added module has independently validated
+business value, safety and release criteria.
+
+
+==================================================
+43. MANDATORY BUSINESS WORKFLOW TESTS
+==================================================
+
+Create realistic test businesses.
+
+TEST BUSINESS A:
+Small retail jewellery shop.
+
+TEST BUSINESS B:
+Multi-branch showroom.
+
+TEST BUSINESS C:
+Jewellery wholesaler.
+
+TEST BUSINESS D:
+Jewellery manufacturer.
+
+Use clearly labelled synthetic test data.
+
+Validate:
+
+SCENARIO 1:
+Buy gold jewellery from supplier.
+
+SCENARIO 2:
+Generate product tags.
+
+SCENARIO 3:
+Sell a gold chain with making charges.
+
+SCENARIO 4:
+Sell multiple items with split payments.
+
+SCENARIO 5:
+Accept old gold against a new purchase.
+
+SCENARIO 6:
+Process a partial customer return.
+
+SCENARIO 7:
+Receive jewellery for repair.
+
+SCENARIO 8:
+Assign work to a karigar.
+
+SCENARIO 9:
+Issue and receive manufacturing metal.
+
+SCENARIO 10:
+Transfer stock between branches.
+
+SCENARIO 11:
+Reconcile daily sales and collections.
+
+SCENARIO 12:
+Close a financial period.
+
+SCENARIO 13:
+Attempt duplicate invoice posting.
+
+SCENARIO 14:
+Attempt unauthorized inventory adjustment.
+
+SCENARIO 15:
+Attempt cross-tenant record access.
+
+SCENARIO 16:
+Recover the database from backup.
+
+SCENARIO 17:
+Repeat a payment webhook.
+
+SCENARIO 18:
+Run the same import twice.
+
+SCENARIO 19:
+Change rates after posting historical invoices.
+
+SCENARIO 20:
+Reconnect after an offline transaction.
+
+Every scenario needs:
+
+Test data
+Expected behavior
+Assertions
+Execution result
+Evidence
+Known limitations
+
+
+==================================================
+44. PRODUCTION RELEASE GATES
+==================================================
+
+Do not call AURIC production-ready until
+the target release passes its gates.
+
+RELEASE GATE A:
+Critical business workflows are complete.
+
+RELEASE GATE B:
+Financial journals reconcile.
+
+RELEASE GATE C:
+Metal stock movements reconcile.
+
+RELEASE GATE D:
+No unresolved critical security vulnerabilities.
+
+RELEASE GATE E:
+Tenant isolation tests pass.
+
+RELEASE GATE F:
+Transaction concurrency tests pass.
+
+RELEASE GATE G:
+Backup restoration is demonstrated.
+
+RELEASE GATE H:
+Migrations complete without unexplained variance.
+
+RELEASE GATE I:
+Supported devices pass acceptance tests.
+
+RELEASE GATE J:
+Deployment and rollback are verified.
+
+RELEASE GATE K:
+Required India-specific compliance treatment
+has been reviewed.
+
+RELEASE GATE L:
+Pilot users approve real operating workflows.
+
+RELEASE GATE M:
+Documentation and support runbooks are complete.
+
+RELEASE GATE N:
+Known limitations are disclosed.
+
+Distinguish release status:
+
+DEVELOPMENT
+INTERNAL TESTING
+STAGING
+CONTROLLED PILOT
+RETAIL PRODUCTION
+SAAS COMMERCIAL RELEASE
+ENTERPRISE MODULE RELEASE
+
+Passing retail production gates does not imply
+that wholesale/manufacturing modules are
+also production-ready.
+
+
+==================================================
+45. CODE QUALITY RULES
+==================================================
+
+Use TypeScript strict mode.
+
+Avoid unnecessary use of any.
+
+Enforce clean module boundaries.
+
+Do not duplicate business logic across frontend
+and backend.
+
+The backend must remain authoritative.
+
+Use:
+
+- Schema validation
+- Reusable services
+- Typed contracts
+- Database transactions
+- Structured errors
+- Consistent logging
+- Automated tests
+
+Remove dead code.
+
+Avoid unnecessary dependencies.
+
+Do not hardcode secrets.
+
+Do not leave unimplemented buttons pretending
+to perform real actions.
+
+Do not silently swallow exceptions.
+
+Do not use demo data in production reports.
+
+Do not use mock financial calculations.
+
+Do not use fake payment-success responses
+outside explicitly marked test environments.
+
+Create maintainable software that a future
+engineering team can understand.
+
+
+==================================================
+46. USER EXPERIENCE QUALITY GATES
+==================================================
+
+Every production page must be tested for:
+
+- Correct navigation
+- Responsive layout
+- Loading states
+- Empty states
+- Error states
+- Form validation
+- Permission restrictions
+- Keyboard operation
+- Data persistence
+- Transaction feedback
+- Accessibility
+- Browser compatibility
+
+Test screen sizes:
+
+Desktop
+Laptop
+Tablet
+Mobile
+
+The retail POS should prioritize desktop
+and counter-device efficiency.
+
+The owner dashboard should work particularly
+well on mobile.
+
+No important operational workflow should
+depend on decorative animation.
+
+
+==================================================
+47. COMMERCIAL DELIVERY REQUIREMENTS
+==================================================
+
+AURIC must be suitable for selling to
+independent jewellery businesses.
+
+Provide:
+
+- Business onboarding
+- Subscription plans
+- Tenant provisioning
+- User onboarding
+- Training guidance
+- Data migration
+- Help documentation
+- Support contact workflow
+- Incident handling
+- Billing management
+- Customer data export
+- Account closure procedures
+
+Create a clear data ownership policy.
+
+A customer must be able to retrieve their
+business data through authorized export processes.
+
+Define reasonable support and maintenance
+procedures.
+
+Build platform telemetry without exposing
+unnecessary business-sensitive information.
+
+
+==================================================
+48. REQUIRED OUTPUT FROM EACH STAGE
+==================================================
+
+After every stage, report:
+
+1. Stage name
+2. Objective
+3. Existing functionality inspected
+4. Files changed
+5. Database migrations created
+6. Features implemented
+7. Bugs fixed
+8. Tests executed
+9. Tests passed
+10. Tests failed
+11. Security issues discovered
+12. Performance observations
+13. Remaining work
+14. Documentation updated
+15. Next recommended implementation stage
+
+Show actual commands and their results
+when possible.
+
+If a test was not run, say NOT RUN.
+
+If hardware was not tested, say NOT TESTED.
+
+If deployment was not performed, say NOT DEPLOYED.
+
+Do not present assumptions as completed work.
+
+
+==================================================
+49. FAILURE HANDLING AND DEBUGGING
+==================================================
+
+When a defect occurs:
+
+1. Reproduce it.
+2. Identify the responsible module.
+3. Determine the root cause.
+4. Review related database transactions.
+5. Implement the smallest safe correction.
+6. Add regression tests.
+7. Run affected test suites.
+8. Verify no financial or metal data corruption.
+9. Update documentation.
+10. Record the incident if appropriate.
+
+Avoid symptom-only patches.
+
+Never hide accounting discrepancies.
+
+If financial data may be corrupted,
+stop the affected transaction workflow
+until integrity has been assessed.
+
+
+==================================================
+50. EXECUTION INSTRUCTIONS
+==================================================
+
+Begin with the repository audit.
+
+Then build stage by stage.
+
+Do not stop after generating architecture diagrams.
+
+Do not stop after generating a PRD.
+
+Do not stop after creating a frontend dashboard.
+
+Actually implement working functionality.
+
+For each stage:
+
+Inspect
+→ Plan
+→ Implement
+→ Test
+→ Debug
+→ Verify
+→ Document
+→ Commit when authorized
+→ Continue
+
+If a stage is too large, divide it into
+small independently testable milestones.
+
+Prioritize critical dependencies.
+
+Do not create large amounts of speculative code.
+
+Do not attempt to solve deployment,
+financial compliance or hardware integration
+using unverified assumptions.
+
+When external credentials, legal review,
+real devices or real customer acceptance
+are necessary, identify the blocker
+and continue independent work.
+
+Never fabricate verification.
+
+Treat production readiness as an evidence-based
+release decision, not a descriptive label.
+
+Your first response should contain:
+
+A. Existing project audit results
+B. Architecture and current codebase assessment
+C. Verified feature-completion matrix
+D. Critical technical and business risks
+E. Prioritized implementation plan
+F. Files to be created or changed
+G. Test strategy
+H. The first concrete implementation milestone
+
+Immediately execute the first safe implementation
+milestone if repository access permits.
+
+Continue maintaining the source code,
+project documentation and release evidence
+throughout development.
+
+FINAL OBJECTIVE:
+
+Deliver an original, commercially deployable,
+multi-tenant jewellery SaaS platform with
+reconciled inventory, accurate precious-metal
+accounting, reliable billing, robust permissions,
+real business workflows, subscription management,
+complete operational documentation and verified
+production readiness.
+
+AURIC must be designed not only to compete
+with existing jewellery ERP products but to
+deliver a demonstrably better experience in
+checkout speed, inventory traceability,
+accounting transparency, migration,
+reliability and owner visibility.
+
+END OF MASTER PROMPT.
